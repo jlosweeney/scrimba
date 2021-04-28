@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Signika&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <!-- JSWEENEY - Added jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>How many days old are you?</h1>
+            <label for="dob">DOB:</label>
+            <!-- JSWEENEY - Added jquery datepicker, onclick on button, and div for results -->
+            <input type="text" id="dob" class="datepicker">
+            <button onclick="calcDays()">Go</button>
+            <div id="results"></div>
+        </div>
+
+    </body>
+</html>
+
+<!-- photo by Gif Frame on Unsplash -->
